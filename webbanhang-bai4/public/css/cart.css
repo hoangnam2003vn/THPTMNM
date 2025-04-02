@@ -1,0 +1,54 @@
+/* Cải tiến giao diện giỏ hàng */
+.container {
+    max-width: 1000px;
+}
+
+.list-group-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item img {
+    max-width: 100px;
+}
+
+.quantity-input {
+    width: 100px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.remove-item {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    background-color: #c82333;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .list-group-item {
+        flex-direction: column;
+    }
+}

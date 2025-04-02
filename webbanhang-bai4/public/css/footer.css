@@ -1,0 +1,48 @@
+/* Tạo kiểu cho footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer h5 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+footer .social-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-icon:hover {
+    transform: scale(1.2);
+    color: #3498db;
+}
+
+footer .text-light {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .text-light:hover {
+    color: #3498db;
+}
+
+footer .text-center {
+    background-color: #34495e;
+}
+
+@media (max-width: 768px) {
+    footer .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
